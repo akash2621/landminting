@@ -1,0 +1,154 @@
+.mint_main{
+    background-image: url(../../assets/images/background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+}
+
+.mint_main::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-color: rgba(14,44,38,0.9);
+    z-index: -1;
+}
+
+.mint-image img{
+    width: 100%;
+}
+
+.mint-box{
+    text-align: center;
+    border: 1px dashed #fff;
+    padding: 30px 20px;
+    border-radius: 25px 5px 25px 5px; 
+    background: rgba(255,255,255,0.04);
+}
+
+.mint-box .mint-logo{
+    margin-bottom: 25px;
+}
+
+.mint-box h5{
+    background: -webkit-linear-gradient(#319C00, #6CC40C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+.mint-box p{
+    color: #fff;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+}
+
+.mint-box h6{
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
+.mint-box h3{
+    margin: 20px 0px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.mint-box .claim-land{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mint-box .claim-land span img{
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+}
+
+.mint-box .claim-land h5{
+    margin-bottom: 0px;
+}
+
+.mint-box .land-cost{
+    color: rgba(255,255,255,0.4);
+}
+
+.claim-land{
+    margin-top: 10px;
+}
+
+.claim-land span{
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    cursor: pointer;
+    background: -webkit-linear-gradient(#319C00, #6CC40C);
+}
+
+.claim-land h5{
+    background: initial;
+    -webkit-text-fill-color: inherit;
+    color: #fff;
+    padding: 8px;
+    border-radius: 100px;
+    font-weight: 500;
+    margin: 0px 15px;
+}
+
+.mint-box button{
+    margin-top: 20px;
+    padding: 7px 30px;
+    border-radius: 50px;
+    box-shadow: inset 3px 2px 5px 1px #319c00;
+    border: 0px;
+    color: #319C00;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+@media(max-width: 991px){
+    .mint-image img{
+        width: inherit;
+        display: block;
+        margin: 100px auto 100px auto;
+    }
+    .mint_main{
+        height: -webkit-fill-available;
+    }
+    .mint_main::before{
+        height: -webkit-fill-available;
+    }
+    .mint-box{
+        margin-bottom: 100px;
+    }
+}
+
+@media(max-width: 991px){
+    .mint-image img{
+        max-width: 60%;
+    }
+    .mint-box{
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 575px){
+    .mint-image img{
+        max-width: 100%;
+    }
+}

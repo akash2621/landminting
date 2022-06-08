@@ -1,0 +1,165 @@
+/* comman css start */
+.m-0 {
+  margin: 0 !important;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  font-family: 'Graphik'!important;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+textarea,
+button {
+  font-family: 'Graphik'!important;
+}
+
+.Layout {
+  display: flex;
+}
+
+#sidebar_toggel {
+  display: none;
+}
+
+button:focus-visible{
+  outline: none;
+}
+
+/* FONT FAMILY */
+@font-face {
+  font-family: 'Graphik';
+  src: url('../assets/fonts/Graphik-Extralight.eot');
+  src: url('../assets/fonts/Graphik-Extralight.woff2') format('woff2'),
+      url('../assets/fonts/Graphik-Extralight.woff') format('woff'),
+      url('../assets/fonts/Graphik-Extralight.ttf') format('truetype'),
+      url('../assets/fonts/Graphik-Extralight.svg') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('../assets/fonts/Graphik-Light.eot');
+  src: url('../assets/fonts/Graphik-Light.woff2') format('woff2'),
+      url('../assets/fonts/Graphik-Light.woff') format('woff'),
+      url('../assets/fonts/Graphik-Light.ttf') format('truetype'),
+      url('../assets/fonts/Graphik-Light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('../assets/fonts/Graphik-Regular.eot');
+  src: url('../assets/fonts/Graphik-Regular.woff2') format('woff2'),
+      url('../assets/fonts/Graphik-Regular.woff') format('woff'),
+      url('../assets/fonts/Graphik-Regular.ttf') format('truetype'),
+      url('../assets/fonts/Graphik-Regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('../assets/fonts/Graphik-Medium.eot');
+  src: url('../assets/fonts/Graphik-Medium.woff2') format('woff2'),
+      url('../assets/fonts/Graphik-Medium.woff') format('woff'),
+      url('../assets/fonts/Graphik-Medium.ttf') format('truetype'),
+      url('../assets/fonts/Graphik-Medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('../assets/fonts/Graphik-Semibold.eot');
+  src: url('../assets/fonts/Graphik-Semibold.woff2') format('woff2'),
+      url('../assets/fonts/Graphik-Semibold.woff') format('woff'),
+      url('../assets/fonts/Graphik-Semibold.ttf') format('truetype'),
+      url('../assets/fonts/Graphik-Semibold.svg') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('../assets/fonts/Graphik-Bold.eot');
+  src: url('../assets/fonts/Graphik-Bold.woff2') format('woff2'),
+      url('../assets/fonts/Graphik-Bold.woff') format('woff'),
+      url('../assets/fonts/Graphik-Bold.ttf') format('truetype'),
+      url('../assets/fonts/Graphik-Bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('../assets/fonts/Graphik-Black.eot');
+  src: url('../assets/fonts/Graphik-Black.woff2') format('woff2'),
+      url('../assets/fonts/Graphik-Black.woff') format('woff'),
+      url('../assets/fonts/Graphik-Black.ttf') format('truetype'),
+      url('../assets/fonts/Graphik-Black.svg') format('svg');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+.heading{
+  background: -webkit-linear-gradient(#319C00, #6CC40C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+.subheading{
+  color: #fff;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.4px;
+}
+
+/* CONTAINER RESPONSIVE */
+/* @media (min-width:1280px){
+  .container{
+    max-width: 1240px!important;
+  }
+}
+
+@media (min-width:1360px){
+  .container{
+      max-width: 1300px!important;
+  }
+} */
+
+@media (min-width:480px){
+  .container{
+      max-width: 1140px!important;
+  }
+}
+
